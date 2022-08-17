@@ -1,0 +1,25 @@
+body {
+    background-color: #151515;
+    display: inline
+}
+
+pre {
+    display: inline;
+    font-family: 'Jetbrains Mono';
+    font-weight: 100;
+}
+
+.heading {
+    margin-top: 200px;
+    font-family: 'Jetbrains Mono';
+    font-weight: 100;
+    margin-left: 200px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+.heading {
+    color: #E8E3E3;
+    font-size: 20px;
+}

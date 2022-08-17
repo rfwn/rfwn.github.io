@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>rfwn is a dev</title>
+
+    <!-- Import style.css from root directory -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="heading">
+        > <pre class="text-slider"></pre>
+    </div>
+    <!-- Import typed.min.js file from typed.js folder -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Add jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Add this script for successful 
+        implementation of typed.js  -->
+    <script>
+      if ($(".text-slider").length == 1) {
+        var typed_strings = $(".text-slider-items").text();
+
+        var typed = new Typed(".text-slider", {
+          strings: [
+            "<b>whaomi</b>\n^500 `hi. i'm erfan majidi. i'm a backend developer and my main language is javascript.\n i make websites, bots and applications.\n>&nbsp;`^3000<b>cat ~/skills.json</b>\n^300 `{\"my skills\": [\n&nbsp;&nbsp;&nbsp;\"node.js\": \"90%\"\n ]}\n>&nbsp;",
+          ],
+          typeSpeed: 28,
+          loop: false,
+          showCursor: true,
+          cursorChar: "_",
+        });
+      }
+    </script>
+  </body>
+</html>
